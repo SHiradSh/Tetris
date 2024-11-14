@@ -2,7 +2,7 @@ import pygame
 import random
 from piece import Piece, SHAPES, SHAPE_COLORS
 from grid import create_grid, draw_grid, clear_rows
-from utils import convert_shape_format, valid_space, check_lost
+from helper import convert_shape_format, valid_space, check_lost
 
 # Set up game window dimensions
 SCREEN_WIDTH = 300
