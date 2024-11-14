@@ -1,5 +1,6 @@
 # Colors
 BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
 CYAN = (0, 255, 255)
 YELLOW = (255, 255, 0)
 MAGENTA = (255, 0, 255)
@@ -8,7 +9,7 @@ RED = (255, 0, 0)
 ORANGE = (255, 165, 0)
 BLUE = (0, 0, 255)
 
-# Define shapes of tetrominoes
+# Define shapes of tetris blocks
 SHAPES = [
     [[1, 1, 1, 1]],  # I shape
     [[1, 1], [1, 1]],  # O shape
